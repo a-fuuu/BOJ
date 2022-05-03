@@ -1,3 +1,4 @@
+# 골드바흐
 import sys
 num_list = list(range(2,10001))
 div = 2
