@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="924c5394-b391-4d94-8ecc-481625aa5007" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/BOJ1002.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BOJ1085.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BOJ3009.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BOJ3053.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BOJ4153.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BOJ10872.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ9020.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ9020.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +68,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651588821082</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Changes">
+      <created>1651594614092</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1651594614092</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
