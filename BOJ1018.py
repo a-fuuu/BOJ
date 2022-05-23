@@ -3,30 +3,31 @@ import sys
 M, N = map(int, sys.stdin.readline().split(' '))
 matrix = []
 for i in range(0,M):
-    array = list(sys.stdin.readline())
+    array = list(sys.stdin.readline().strip())
     matrix.append(array)
 count_list = []
+
 for i in range(0,M-8+1):
     for j in range(0,N-8+1):
         chess = []
         for x in range(i,i+8):
             chess.append(matrix[x][j:j+8])
-        print(chess)
-        count = 0
-        start = chess[0][0]
-        for line in chess:
-            for i in range(1,8):
-                line[0] = start
-                if line[i] == line[i-1]:
-                    if line[i-1] == "B":
-                        line[i] = "W"
-                        count += 1
-                    else:
-                        line[i] = "B"
-                        count += 1
-            if start == "B":
-                strat = "W"
-            elif start =="W":
-                start = "B"
-        count_list.append(count)
-print(count_list)
+        # chess는 8 * 8 로 쪼갠 결과
+        # 두가지 케이스로 나눠서 계산해야한다 [0][0]이 "W"일때와 "B"일때로 나누어서
+        for st in ['B','W']:
+            count = 0
+            start = st
+            for line in chess:
+                for z in range(0,8):
+                    if z % 2 == 0:
+                        if line[z] != start:
+                            count += 1
+                    elif z % 2 == 1:
+                        if line[z] == start:
+                            count += 1
+                if start == 'B':
+                    start = 'W'
+                elif start =='W':
+                    start = 'B'
+            count_list.append(count)
+print(min(count_list))
