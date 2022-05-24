@@ -11,10 +11,8 @@ def sixsixsix(num):
         return True
 
 i = 666
-
 while len(sixnum_list) < N:
     if sixsixsix(i):
         sixnum_list.append(i)
     i += 1
-
 print(sixnum_list[-1])
