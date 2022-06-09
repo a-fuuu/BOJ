@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="924c5394-b391-4d94-8ecc-481625aa5007" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/BOJ10870.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BOJ17478.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BOJ2447.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +46,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/jjp75/Desktop/Visualization_Project",
+    "last_opened_file_path": "/Users/a_fuuu/BOJ",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
@@ -63,6 +60,7 @@
       <updated>1650979209098</updated>
       <workItem from="1652169618491" duration="1701000" />
       <workItem from="1652191216029" duration="1292000" />
+      <workItem from="1654784979030" duration="1652000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1651420746063</created>
